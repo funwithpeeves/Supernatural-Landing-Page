@@ -1,0 +1,188 @@
+body {
+    background-image: url(images/fondo.png);
+    background-size: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    backdrop-filter: blur(3px);
+    padding: 10px;
+}
+
+.logo img {
+    margin-left: 50px;
+    width: 250px;
+    height: 50px;
+    filter: drop-shadow(5px 5px 5px #fff);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    padding: 0 15px;
+}
+
+.nav-links a {
+    font-family: 'Insomnia';
+    color: #5f5f5f;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover{
+    color: #ff0000;
+    border-bottom: 1px solid #ff0000 ;
+}
+
+.container {
+    width: 100%;
+    align-items: right;
+    justify-content: right;
+    display: flex;
+}
+
+/*characters*/
+
+.character0 {
+    width: 55%;
+    margin-top: 400px;
+    transition: transform 0.3s, z-index 0s;
+    cursor: pointer;
+    position: fixed;
+    filter: grayscale(1);
+}
+
+.character1 {
+    width: 48%;
+    margin-top: 200px;
+    transition: transform 0.3s, z-index 0s;
+    cursor: pointer;
+    position: fixed;
+    filter: grayscale(1);
+}
+
+.character2 {
+    width: 42%;
+    margin-top: 165px;
+    transition: transform 0.3s, z-index 0s;
+    cursor: pointer;
+    position: fixed;
+    filter: grayscale(1);
+}
+
+.character3 {
+    width: 38%;
+    margin-top: 120px;
+    transition: transform 0.3s, z-index 0s;
+    cursor: pointer;
+    position: fixed;
+    filter: grayscale(1);
+}
+
+.character4 {
+    width: 32%;
+    margin-top: 50px;
+    margin-right: 30px;
+    transition: transform 0.3s, z-index 0s;
+    cursor: pointer;
+    position: fixed;
+    filter: grayscale(1);
+}
+
+.character5 {
+    width: 30%;
+    margin: 0;
+    transition: transform 0.3s, z-index 0s;
+    cursor: pointer;
+    position: fixed;
+    filter: grayscale(1);
+}
+
+/* images */
+
+.character0 img {
+width: 50%;
+height: auto;
+z-index: 0;
+}
+
+.character1 img {
+    width: 50%;
+    height: auto;
+    z-index: 0;
+    }
+ .character2 img {
+        width: 50%;
+        height: auto;
+        z-index: 0;
+        }
+
+.character3 img {
+  width: 70%;
+  height: auto;
+  z-index: 0;
+    }
+
+    .character4 img {
+        width: 90%;
+        height: auto;
+        z-index: 0;
+        }
+
+    .character5 img {
+        width: 100%;
+        height: auto;
+        z-index: 0;
+        }
+
+/*------------Hover------------*/
+
+.character0:hover {
+    transform: scale(1.2);
+    filter: grayscale(0);
+    filter: drop-shadow(5px 5px 10px #fffdfd );
+}
+
+.character1:hover {
+    transform: scale(1.2);
+    filter: grayscale(0);
+    filter: drop-shadow(5px 5px 10px #ff0000 );
+}
+
+.character2:hover {
+    transform: scale(1.2);
+    filter: grayscale(0);
+    filter: drop-shadow(5px 5px 10px #00ff40 );
+}
+
+.character3:hover {
+    transform: scale(1.2);
+    filter: grayscale(0);
+    filter: drop-shadow(5px 5px 10px #fff);
+}
+
+.character4:hover {
+    transform: scale(1.1);
+    filter: grayscale(0);
+    filter: drop-shadow(5px 5px 10px #2600ff );
+}
+
+.character5:hover {
+    transform: scale(1.1);
+    filter: grayscale(0);
+    filter: drop-shadow(5px 5px 10px #2600ff );
+}
+
+.text-characters {
+    font-family: 'Insomnia';
+    margin-left: 10%;
+    position: fixed;
+    top: 50%;
+    color: white;
+    font-size: 54px;
+}
